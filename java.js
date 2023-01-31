@@ -131,3 +131,6 @@ function Clicked(index) {
     document.getElementById("GoogleBody").innerHTML = LocationsLink[index]
     $('#GoogleMaps').modal('show')
 }
+
+
+console.log('SCRIPT SCRIPT SCRIPT SCRIPT SCRIPT SCRIPT SCRIPT SCRIPT SCRIPT SCRIPT ')
