@@ -1,0 +1,46 @@
+#Background {
+
+    background-image: url(https://i.pinimg.com/564x/01/49/cc/0149ccdaa003b5f077371871e40e7609.jpg);
+    background-color: rgb(55, 141, 217);
+    height: 100vh;
+
+    background-repeat: repeat;
+    /* filter: blur(2px); 
+     -webkit-filter: blur(2px); */
+}
+
+#Card {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 150px;
+    margin-bottom: 50px;
+
+}
+
+.navbar.navbar-expand-lg.navbar-light.bg-light {
+    z-index: 10;
+}
+
+.Location {
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    margin-top: 5px;
+}
+
+.Location2 {
+    width: 30%;
+    margin-right: 50px;
+}
+
+.my-custom-scrollbar {
+    position: relative;
+    height: 300px;
+    overflow: auto;
+}
+
+.table-wrapper-scroll-y {
+    display: block;
+}
