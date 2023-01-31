@@ -122,7 +122,7 @@ for (let i = 1; i < Object.keys(Books).length; i++) {
                 <td>${BookName}</td>
                 <td>${Author}</td>
                 <td>${loc}</td>
-                <td><button id="OpenLocation${Locations[i]}" onclick="Clicked(${IndexToSend})" class="btn btn-warning btn-outline-dark">Open</button></td>
+                <td><button id="OpenLocation${Locations[i]}" onclick="Clicked(${IndexToSend})" class="btn btn-warning btn-outline-dark" style="margin-top:-5px">Open</button></td>
             </tr>`
 }
 document.getElementById("SearchTable").innerHTML = cont
@@ -132,5 +132,3 @@ function Clicked(index) {
     $('#GoogleMaps').modal('show')
 }
 
-
-console.log('SCRIPT SCRIPT SCRIPT SCRIPT SCRIPT SCRIPT SCRIPT SCRIPT SCRIPT SCRIPT SS')
